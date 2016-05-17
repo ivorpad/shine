@@ -1,0 +1,25 @@
+LOG:  database system was shut down at 2016-05-07 00:43:46 VET
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "shine_development" does not exist
+ERROR:  database "shine_development" already exists
+STATEMENT:  CREATE DATABASE "shine_development" ENCODING = 'unicode'
+ERROR:  database "shine_test" already exists
+STATEMENT:  CREATE DATABASE "shine_test" ENCODING = 'unicode'
+FATAL:  database "shine" does not exist
+FATAL:  role "shine_development" does not exist
+ERROR:  permission denied for relation schema_migrations
+STATEMENT:  SELECT NULL AS "version" FROM "public"."schema_migrations"    LIMIT 1000
+ERROR:  database "shine_development" already exists
+STATEMENT:  CREATE DATABASE "shine_development" ENCODING = 'unicode'
+ERROR:  database "shine_test" already exists
+STATEMENT:  CREATE DATABASE "shine_test" ENCODING = 'unicode'
+ERROR:  permission denied for relation schema_migrations
+STATEMENT:  SELECT "schema_migrations".* FROM "schema_migrations"
+ERROR:  permission denied for relation schema_migrations
+STATEMENT:  SELECT "schema_migrations".* FROM "schema_migrations"
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
